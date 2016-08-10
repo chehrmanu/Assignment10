@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Assignment 10</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="vectacorp/css/themes/Mamu.css" />
+  <link rel="stylesheet" href="vectacorp/css/themes/Mamu.min.css" />
+ <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" /> 
+  
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div data-role="page" id="home">
+        <header data-role="header">
+            <h1>Home</h1>
+            <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
+                <li><a href="#solutions" data-icon="star">Solutions</a></li>
+                <li><a href="#contact" data-icon="gear">Contact</a></li>
+            </ul>
+        </div>
+
+        </header>
+        <section data-role="content">
+            
+            <h3>Welcome</h3>
+<p>
+With innovative approaches and advanced methodologies, Vecta Corporation provides scalable business solutions to help companies achieve success through revenue increase, cost management, and user satisfaction. Our approach stems from the three most important business growth aspects: helping companies reach prospects, assist in converting prospects to customers, and assist in retaining those customers. This is accomplished through our interactive solutions and expertise in providing a memorable and positive user experience.
+      
+      <div data-role="collapsible">
+    <h3>Client Testimonials</h3>
+    <p>Throughout the years we have worked with Vecta Corporation, we have always been amazed at the level of dedication and professionalism that they have provided us and our WGDC products. It is this commitment that has increased both our income and exposure exponentially.<br>
+
+Iona Ford<br>
+President<br>
+Chevy Dealers Association</p>
+
+     <p>Incredible results from an incredible effort by the Vecta Corporation team! We are very pleased with the business benefits we have rceived by working with them.<br>
+
+Robin Banks<br>
+CEO<br>
+Profits Financial, Inc.</p>
+            </div>
+
+        </section>
+        <footer data-role="footer">
+            <h4>&copy 2016</h4>
+        </footer>
+    </div>
+ <div data-role="page" id="solutions" >
+        <header data-role="header">
+            <h1>Solutions</h1>
+            <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li><a href="#home" data-icon="home" > Home</a></li>
+                <li><a href="#solutions" data-icon="star" class="ui-btn-active">Solutions</a></li>
+                <li><a href="#contact" data-icon="gear">Contact</a></li>
+            </ul>
+        </div>
+        </header>
+        <section data-role="content">
+           <h3> Our Solutions</h3>
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#vp" data-rel="popup" data-position-to="window"> vProspect</a></li>
+                <li><a href="#vc" data-rel="popup" data-position-to="window"> vConvert</a></li>
+                <li><a href="#vr" data-rel="popup" data-position-to="window"> vRetain</a></li>
+            </ul>
+       
+<div id="vp" data-role="popup">
+<p>vProspect 2.0<br>
+    Define and research your target audience, define your strategy to reach that audience and present a strong and memorable brand to that audience.</p></div>
+
+    <div id="vc" data-role="popup">
+<p>vConvert 2.0<br>
+Create a highly user-friendly and easy-to-navigate information architecture that will help your prospects interact with the company on a highly interactive level.</p></div>
+            
+<div id="vr" data-role="popup">
+<p>vRetain 1.0<br>
+Build on existing customer relationships to improve productivity and maximize customer loyalty, while growing revenues.</p>
+        </div>
+     </section>
+        <footer data-role="footer">
+            <h4>&copy 2016</h4>
+        </footer>
+    </div>
+     <div data-role="page" id="contact">
+        <header data-role="header">
+            <h1>Contact</h1>
+            <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li><a href="#home" data-icon="home"> Home</a></li>
+                <li><a href="#solutions" data-icon="star">Solutions</a></li>
+                <li><a href="#contact" data-icon="gear" class="ui-btn-active">Contact</a></li>
+            </ul>
+        </div>
+        </header>
+        <section data-role="content">
+          <form>  
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+              <label for="name">Email:</label>
+            <input type="text" name="email" id="email">
+            
+            <label for="product">Product Interest:</label>	<select name="product" id="product">
+                <option value="vp">vProspect</option>
+                <option value="vr">vRetain</option>
+                <option value="vc">vConvert</option>
+              
+              </select>
+              <label for="comment">Question/Comment:</label>
+              <textarea name="comment" id="comment"></textarea>
+            <input type="submit" value="Submit" data-inline="true">
+            <input type="reset" value="Reset" data-inline="true">
+              </form>
+        </section>
+        <footer data-role="footer">
+            <h4>&copy 2016</h4>
+        </footer>
+    </div>
+ 
+</body>
+</html>
